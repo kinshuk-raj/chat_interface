@@ -47,12 +47,12 @@ class UserServices {
 
   static Future<Object> checkUser(String email) async {
     try {
-      var url = Uri.parse(checkUserUrl);
-      var response = await http.get(url);
-      if (200 == response.statusCode) {
-        return Success(
-            code: successCode, response: checkUserModelFromJson(response.body));
-      }
+      // var url = Uri.parse(checkUserUrl);
+      // var response = await http.get(url);
+      // if (200 == response.statusCode) {
+      //   return Success(
+      //       code: successCode, response: checkUserModelFromJson(response.body));
+      // }
 
       return Failure(code: invalidResponse, errorResponse: 'Invalid Response');
     } on HttpException {

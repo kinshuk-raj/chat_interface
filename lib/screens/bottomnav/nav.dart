@@ -5,7 +5,6 @@ import 'package:hillfair2022_frontend/screens/profile/profile.dart';
 import 'package:hillfair2022_frontend/screens/team/teamlist.dart';
 import 'package:hillfair2022_frontend/screens/userfeed/userfeed.dart';
 import 'package:hillfair2022_frontend/utils/colors.dart';
-import 'package:hillfair2022_frontend/screens/chatting/chatting.dart';
 import 'package:hillfair2022_frontend/view_models/team_view_model.dart';
 import 'package:provider/provider.dart';
 
